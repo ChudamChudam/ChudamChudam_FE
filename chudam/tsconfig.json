@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "useDefineForClassFields": true,
+    "sourceMap": true,
+    // "baseUrl": "./",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true, //쓰지않는 지역변수 있으면 에러
+    "noUnusedParameters": true, //쓰지않는 파라미터 있으면 에러
+    "removeComments": true, //컴파일시 주석제거
+    "checkJs": false, // 일반 js 파일에서도 에러체크 여부
+    // "paths": {
+    //     "@/*": ["src/*"]
+    // },
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  }
+  // "references": [
+  //     /**
+  //      * 공통라이브러리 설정 - Not a project
+  //      * path: "packages/common
+  //      */
+  //     {
+  //         "path": "packages/common"
+  //     },
+  //     {
+  //         "path": "packages/main"
+  //     }
+  // ]
+  // "include": ["src/**/*.ts", "src/**/*.tsx", "src/types/*.d.ts"]
+}
